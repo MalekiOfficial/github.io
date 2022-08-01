@@ -4,6 +4,7 @@
 }
 * {
     box-sizing: border-box;
+    font-family: 'Mochiy Pop One', sans-serif;
 }
 body {
     font-family: arial;
@@ -68,7 +69,7 @@ body {
         padding: 0;
     }
 }
-@media screen and (max-width:1000px) {
+@media screen and (max-width:980px) {
     .leftcol, .rightcol {
         width: 100%;
         padding: 0;
