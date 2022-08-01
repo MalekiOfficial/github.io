@@ -1,0 +1,75 @@
+@font-face {
+	font-family: 'iransansweb';
+	src: url('IRANSansWeb_Bold.eot') format('eot'), /* IE6-8 */ url('IRANSansWeb_Bold.woff2') format('woff2'), /* Chrome36+, Opera24+ */ url('IRANSansWeb_Bold.woff') format('woff'); /* FF3.6+,IE9,Chrome6+,Saf5.1+ */
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: arial;
+    background-color: black;
+}
+.header {
+    text-align: center;
+    /*background-color: black;*/
+    background-image: url(header4.jpg);
+}
+.topnav {
+    overflow: hidden;
+    text-align: center;
+    background-color: #333;
+}
+.topnav a {
+    color: white;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    transition: all ease 0.2s;
+}
+.topnav a:hover {
+    background-color: green;
+    color: white;
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+}
+.leftcol {
+    float: left;
+    width: 75%;
+    background-color: black;
+}
+.fakeimg {
+    padding: 10px;
+    display: inline-block;
+}
+.card {
+    background-color: #fff7f7;
+    padding: 20px;
+    margin-top: 20px;
+}
+.rightcol {
+    float: left;
+    width: 25%;
+    background-color: black;
+    padding: 15px;
+    margin-top: 5px;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@media screen and (max-width:980px) {
+    .leftcol, .rightcol {
+        width: 100%;
+        padding: 0;
+    }
+}
+@media screen and (max-width:380px) {
+    .topnav {
+        display: none;
+    }
+}
