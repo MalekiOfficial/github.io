@@ -62,7 +62,7 @@ body {
     clear: both;
     display: table;
 }
-@media screen and (max-width:145px) {
+@media screen and (max-width:1450px) {
     .leftcol, .rightcol {
         width: 100%;
         padding: 0;
