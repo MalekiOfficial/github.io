@@ -16,9 +16,12 @@ body {
     background-image: url(header4.jpg);
 }
 .topnav {
+    list-style-type: none;
     overflow: hidden;
     text-align: center;
     background-color: #333;
+    position: sticky;
+    top: 0;
 }
 .topnav a {
     color: white;
@@ -47,7 +50,7 @@ body {
     display: inline-block;
 }
 .card {
-    background-color: #fff7f7;
+    background-color: #f1f1f1;
     padding: 20px;
     margin-top: 20px;
 }
