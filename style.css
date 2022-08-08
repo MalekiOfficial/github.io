@@ -4,7 +4,8 @@
 }
 * {
     box-sizing: border-box;
-    font-family: 'Mochiy Pop One', sans-serif;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
 }
 body {
     font-family: arial;
