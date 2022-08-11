@@ -27,10 +27,10 @@ body {
     align-content: space-between;
     flex-wrap: wrap;
     text-decoration: none;
-    background-color: #a18838;
+    background-color: #24262b;
 }
 .navbar a {
-    color: black;
+    color: white;
     display: inline-block;
     text-align: center;
     text-decoration: none;
@@ -41,11 +41,11 @@ body {
     list-style-type: none;
     overflow: hidden;
     text-align: center;
-    background-color: #a18838;
+    background-color: #24262b;
     position: sticky;
 }
 .topnav a {
-    color: black;
+    color: white;
     display: inline-block;
     text-align: center;
     text-decoration: none;
@@ -76,6 +76,15 @@ body {
     display: inline-block;
     text-decoration: none;
     margin: 5px;
+
+}
+.footbar i {
+    padding-top: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    border-radius: 50%;
 }
 .leftcol {
     float: left;
