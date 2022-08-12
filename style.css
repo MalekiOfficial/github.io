@@ -41,7 +41,8 @@ body {
     list-style-type: none;
     overflow: hidden;
     text-align: center;
-    background-color: #24262b;
+    /*background-color: #24262b;*/
+    background-color: #17223b;
     position: sticky;
 }
 .topnav a {
@@ -53,7 +54,7 @@ body {
     transition: all ease 0.2s;
 }
 .topnav a:hover {
-    background-color: red;
+    background-color: #c12127;
     color: white;
 }
 .navbar a:hover {
@@ -63,12 +64,12 @@ body {
 .footer {
     padding: 15px;
     text-align: center;
-    background-color: #333;
+    background-color: #103641;
 }
 .footbar {
     list-style-type: none;
     overflow: hidden;
-    background-color: #333;
+    background-color: #103641;
     position: sticky;
 }
 .footbar a {
