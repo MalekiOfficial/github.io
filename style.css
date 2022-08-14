@@ -18,23 +18,20 @@ body {
     background-image: url(header4.jpg);
 }
 .navbar {
-    /*text-align: center;*/
     display: flex;
-    justify-content: center;
     list-style-type: none;
     overflow: hidden;
-    flex-direction: row;
-    align-content: space-between;
-    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
     text-decoration: none;
-    background-color: #24262b;
+    background-color: #17223b;
 }
 .navbar a {
+    font-family: 'iransansweb';
     color: white;
-    display: inline-block;
     text-align: center;
-    text-decoration: none;
-    padding: 8px 9px;
+    display: inline;
+    padding: 8px 15px;
     font-size: 15px;
 }
 .topnav {
@@ -58,7 +55,7 @@ body {
     color: white;
 }
 .navbar a:hover {
-    background-color: red;
+    background-color: #c12127;
     color: white;
 }
 .footer {
@@ -77,7 +74,6 @@ body {
     display: inline-block;
     text-decoration: none;
     margin: 5px;
-
 }
 .footbar i {
     padding-top: 10px;
