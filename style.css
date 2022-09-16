@@ -124,7 +124,7 @@ body {
         padding: 0;
     }
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:370px) {
     .topnav {
         display: none;
     }
